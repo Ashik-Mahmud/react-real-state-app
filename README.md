@@ -2,7 +2,7 @@
 
 this is simple react real state application using react core things. if you have a any suggestion about this project feel free to share.
 
-# Using Technologies
+### Using Technologies
 
 - React Js
 - React Hooks
@@ -12,16 +12,16 @@ this is simple react real state application using react core things. if you have
 - Terminal
   & Many more....
 
-## Features Required
+### Features Required
 
 -
 -
 -
 -
 
-## Demo link on about
+### Demo link on about
 
-## Demo preview screenshot
+### Demo preview screenshot
 
 ![imageScreenshot](./preview.png)
 
