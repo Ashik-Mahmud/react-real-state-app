@@ -3,6 +3,7 @@ import { BsGrid } from "react-icons/bs";
 import { FaRegWindowClose } from "react-icons/fa";
 import { SiHomeadvisor } from "react-icons/si";
 import "./Navbar.css";
+import Overlay from "./Overlay";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -18,6 +19,8 @@ const Navbar = () => {
               State
             </a>
             <button className="btn">Sign Up</button>
+            {/* {show ?  : ""} */}
+            <Overlay setShow={setShow} show={show} />
             <ul className={`primary-menu ${show ? "active" : ""}`}>
               {["home", "best", "featured", "about", "contact"].map(
                 (link, index) => (
@@ -25,6 +28,7 @@ const Navbar = () => {
                     key={link + index}
                     pathName={link}
                     linkName={link}
+                    setShow={setShow}
                   />
                 )
               )}
@@ -39,10 +43,15 @@ const Navbar = () => {
   );
 };
 
-const NavLinks = ({ pathName, linkName }) => {
+const NavLinks = ({ setShow, pathName, linkName }) => {
   return (
     <li>
-      <a href={pathName === "home" ? "#" : "#" + pathName}>{linkName}</a>
+      <a
+        onClick={() => setShow(false)}
+        href={pathName === "home" ? "#" : "#" + pathName}
+      >
+        {linkName}
+      </a>
     </li>
   );
 };
