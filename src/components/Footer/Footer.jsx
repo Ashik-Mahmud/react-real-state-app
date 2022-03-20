@@ -5,7 +5,9 @@ const Footer = () => {
     <>
       <footer id="footer">
         <div className="container footer">
-          <h2>From Footer</h2>
+          <p className="center-text p-2">
+            &copy; Copyright by 2022 * Alright reserved{" "}
+          </p>
         </div>
       </footer>
     </>

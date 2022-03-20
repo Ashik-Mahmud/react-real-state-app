@@ -54,3 +54,6 @@ img {
   align-items: center;
   justify-content: center;
 }
+.p-2 {
+  padding: 1rem;
+}
