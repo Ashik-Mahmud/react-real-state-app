@@ -1,0 +1,44 @@
+/* best  */
+#best {
+  padding: 3rem 0rem;
+  position: relative;
+}
+#best .best-container {
+  position: relative;
+}
+.best-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.best-container .best-content ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0rem;
+  margin-bottom: 2rem;
+}
+.best-content ul li {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.best-content ul li.active {
+  font-weight: bold;
+}
+.best-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  position: relative;
+  margin-top: 3rem;
+}
+.best-grid .item {
+  cursor: pointer;
+}
+.best-content .center-text {
+  margin: 2rem 0rem;
+}
