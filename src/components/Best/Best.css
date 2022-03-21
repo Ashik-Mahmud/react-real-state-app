@@ -25,9 +25,11 @@
 .best-content ul li {
   font-size: 1rem;
   cursor: pointer;
+  text-transform: capitalize;
 }
 .best-content ul li.active {
   font-weight: bold;
+  color: var(--primary-color);
 }
 .best-grid {
   display: grid;
@@ -38,6 +40,10 @@
 }
 .best-grid .item {
   cursor: pointer;
+}
+.best-grid img {
+  height: 100%;
+  object-fit: cover;
 }
 .best-content .center-text {
   margin: 2rem 0rem;
