@@ -12,15 +12,6 @@ this is simple react real state application using react core things. if you have
 - Terminal
   & Many more....
 
-### Features Required
-
--
--
--
--
-
-### Demo link on about
-
 ### Demo preview screenshot
 
 ![imageScreenshot](./preview.png)
